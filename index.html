@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>My Tailwind Components</title>
-</head>
-<body>
-    
-</body>
-</html>
+  </head>
+  <body>
+    <!-- Container div -->
+    <div class="flex items-center justify-center bg-white h-full">
+      <!-- Flexbox Items Container -->
+      <div class="flex flex-col space-y-6 my-12">
 
+        <!-- Flex Items  -->
+
+        <div class=" group p-4 rounded-xl border border-lime-600 flex flex-col hover:bg-gradient-to-br from-lime-600 to-lime-700 hover:scale-105 duration-200 ">
+            <h3 class="text-lime-600 capitalize font-medium group-hover:text-white text-center">ui design daily email popup tailwind</h3>
+            <div class=" my-3 border-t border-lime-600 group-hover:border-white"></div>
+            <p class="text-lime-600 max-w-[200px] group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos animi autem quis iure nemo!</p>
+            <div class="flex mt-4">
+                <a href="#" class="mx-auto inline-block px-8 py-2 text-lime-600 text-center border border-lime-600 font-medium rounded-lg group-hover:bg-white">Link</a>
+                <a href="#" class="mx-auto inline-block px-8 py-2 text-lime-600 text-center border border-lime-600 font-medium rounded-lg group-hover:bg-white">GitHub</a>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
