@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Email popup</title>
+</head>
+<body>
+    <!-- Background color: gradient and full screen with flex for centering  -->
+    <div class="flex items-center justify-center h-screen bg-gradient-to-br from-[#FF9ACB] to-[#FDD476]">
+        <!-- Card -->
+        <div class="bg-white p-4 md:p-6">
+            <!-- Flex Container -->
+            <div class="flex flex-col md:flex-row">
+                <img src="images/jellyfish.jpg" alt="jellyfish" class="h-32 w-64 md:h-full object-cover hover:scale-y-125 hover:scale-x-[1.125] md:hover:scale-100 duration-200">
+
+                <!-- Content -->
+                <div class="flex my-4 flex-col w-64 md:mx-8">
+                    <h2 class="text-slate-900 font-bold text-xl mt-2">Ideas and UI components in your inbox</h2>
+
+                    <p class="text-slate-900 mt-4 font-medium">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium veritatis nesciunt officia delectus ex in?
+                    </p>
+
+                    <div class="mt-6 flex flex-col space-y-2">
+                        <input type="text" placeholder="Email address" class="text-left font-medium px-6 py-4 placeholder:text-slate-400 border border-slate-400 rounded focus:outline-none">
+                        <button class="px-6 py-4 text-center font-semibold text-white bg-gradient-to-r from-blue-500 to bg-cyan-500 rounded focus:outline-none shadow-lg">Subscribe</button>
+                        <h6 class="text-xs font-bold text-center pt-4 text-slate-400"> No spams included!</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
