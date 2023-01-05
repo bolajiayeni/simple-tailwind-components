@@ -1,14 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Ui Design Daily Pricing cards</title>
-</head>
-<body>
-    <div class="flex items-center justify-center"></div>
-</body>
-</html>
+  </head>
+  <body>
+    <div class="flex items-center justify-center h-full md:h-screen bg-slate-900">
+      <!-- Flex Container -->
+      <div class="flex flex-col bg-slate-100 px-8 py-6 rounded-lg space-y-8 my-8 md:flex-row md:space-x-8 md:space-y-0">
 
+        <!-- Card -->
+        <div class="bg-white flex flex-col p-2 rounded-lg shadow-xl shadow-slate-300">
+          <div
+            class="py-4 px-32 text-slate-900 uppercase text-center font-bold bg-slate-100 rounded-lg"
+          >
+            free
+          </div>
+
+          <!-- Content -->
+          <div class="flex flex-col mx-auto max-w-[250px]">
+            <div class="my-8 mx-4">
+              <h1 class="text-5xl text-slate-900 font-bold text-center">$0</h1>
+              <p class="text-slate-900 uppercase mt-2 text-center font-medium">
+                Great For Starters
+              </p>
+
+              <p class="text-slate-900 capitalize mt-4 text-center font-normal">
+                Discover how to create your first projects.
+              </p>
+            </div>
+
+            <button
+              class="py-4 uppercase text-slate-900 border border-slate-900 rounded-lg font-medium hover:bg-slate-900 hover:text-white duration-200"
+            >
+              Get started
+            </button>
+
+            <div class="my-8">
+              <div class="flex justify-start my-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  class="stroke-lime-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+
+                <p
+                  class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                >
+                  3 new projects/month
+                </p>
+              </div>
+
+              <div class="flex justify-start my-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  class="stroke-red-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+
+                <p
+                  class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                >
+                  3 new projects/month
+                </p>
+              </div>
+
+              <div class="flex justify-start my-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  class="stroke-red-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+
+                <p
+                  class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                >
+                  3 new projects/month
+                </p>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="bg-white flex flex-col p-2 rounded-lg shadow-lg shadow-violet-200">
+            <div
+              class="py-4 px-32 text-white uppercase text-center font-bold bg-gradient-to-r from-blue-400 to-violet-400 rounded-lg"
+            >
+              lite
+            </div>
+  
+            <!-- Content -->
+            <div class="flex flex-col mx-auto max-w-[250px]">
+              <div class="my-8 mx-4">
+                <h1 class="text-5xl text-slate-900 font-bold text-center">$7</h1>
+                <p class="text-slate-900 uppercase mt-2 text-center font-medium">
+                  For Planned projects
+                </p>
+  
+                <p class="text-slate-900 capitalize mt-4 text-center font-normal">
+                  Bring your designs to the next level
+                </p>
+              </div>
+  
+              <button
+                class="py-4 uppercase text-slate-900 border border-slate-900 rounded-lg font-medium hover:bg-slate-900 hover:text-white duration-200"
+              >
+                Get started
+              </button>
+  
+              <div class="my-8">
+                <div class="flex justify-start my-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                <div class="flex justify-start my-4">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                <div class="flex justify-start my-4">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white flex flex-col p-2 rounded-lg shadow-lg shadow-orange-100">
+            <div
+              class="py-4 px-32 text-white uppercase text-center font-bold bg-gradient-to-r from-pink-300 to-orange-300 rounded-lg"
+            >
+              pro
+            </div>
+  
+            <!-- Content -->
+            <div class="flex flex-col mx-auto max-w-[250px]">
+              <div class="my-8 mx-4">
+                <h1 class="text-5xl text-slate-900 font-bold text-center">$12</h1>
+                <p class="text-slate-900 uppercase mt-2 text-center font-medium">
+                  Great For Starters
+                </p>
+  
+                <p class="text-slate-900 capitalize mt-4 text-center font-normal">
+                  Discover how to create your first projects.
+                </p>
+              </div>
+  
+              <button
+                class="py-4 uppercase text-slate-900 border border-slate-900 rounded-lg font-medium hover:bg-slate-900 hover:text-white duration-200"
+              >
+                Get started
+              </button>
+  
+              <div class="my-8">
+                <div class="flex justify-start my-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                <div class="flex justify-start my-4">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                <div class="flex justify-start my-4">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="stroke-lime-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+  
+                  <p
+                    class="text-slate-900 capitalize text-center text-sm font-normal ml-2"
+                  >
+                    3 new projects/month
+                  </p>
+                </div>
+  
+                
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>
